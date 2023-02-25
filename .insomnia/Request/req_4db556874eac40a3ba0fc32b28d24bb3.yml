@@ -1,0 +1,48 @@
+_id: req_4db556874eac40a3ba0fc32b28d24bb3
+type: Request
+parentId: wrk_f58f3be74b214393a4a1fb2d707a6631
+modified: 1677307739552
+created: 1677307739552
+url: "{{ base_url }}/nobelPrizes"
+name: get /nobelPrizes
+description: Obtain information about all Nobel Prizes or search for a specific
+  set of Nobel Prizes. Note that not all information about the Laureates are
+  provided in the output, as a request of making this endpoints response
+  lighter. Call the laureates endpoint for full information.
+method: GET
+body: {}
+parameters:
+  - name: offset
+    disabled: true
+    value: "0"
+  - name: limit
+    disabled: true
+    value: "0"
+  - name: sort
+    disabled: true
+    value: string
+  - name: nobelPrizeYear
+    disabled: true
+    value: "0"
+  - name: yearTo
+    disabled: true
+    value: "0"
+  - name: nobelPrizeCategory
+    disabled: true
+    value: string
+  - name: format
+    disabled: true
+    value: string
+  - name: csvLang
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1677307739552
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

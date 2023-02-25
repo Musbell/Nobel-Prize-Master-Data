@@ -1,0 +1,22 @@
+_id: req_de5a51761dba492983bcdd1aed1ca749
+type: Request
+parentId: wrk_f58f3be74b214393a4a1fb2d707a6631
+modified: 1677307739524
+created: 1677307739524
+url: "{{ base_url }}/laureate/{{ laureateID }}"
+name: get /laureate/{laureateID}
+description: Obtain information about an specific Nobel Prize Laureate. Used as
+  unique identifier.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1677307739524
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,22 @@
+_id: req_66e0b80574234340b057421b2e1317d6
+type: Request
+parentId: wrk_f58f3be74b214393a4a1fb2d707a6631
+modified: 1677307774714
+created: 1677307774714
+url: "{{ base_url }}/nobelPrize/{{ category }}/{{ year }}"
+name: get /nobelPrize/{category}/{year}
+description: Obtain information about one specific Nobel Prize. Used as unique
+  identifier for links.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1677307774714
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

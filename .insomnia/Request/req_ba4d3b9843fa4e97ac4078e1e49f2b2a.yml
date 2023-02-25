@@ -1,0 +1,116 @@
+_id: req_ba4d3b9843fa4e97ac4078e1e49f2b2a
+type: Request
+parentId: wrk_f58f3be74b214393a4a1fb2d707a6631
+modified: 1677307739534
+created: 1677307739534
+url: "{{ base_url }}/laureates"
+name: get /laureates
+description: Obtain information about Nobel Prize Laureates (persons and
+  organizations) and their Nobel Prize(s), or search for a set of Laureates.
+  Returns full information about the Laureates and Prizes.
+method: GET
+body: {}
+parameters:
+  - name: offset
+    disabled: true
+    value: "0"
+  - name: limit
+    disabled: true
+    value: "0"
+  - name: sort
+    disabled: true
+    value: string
+  - name: ID
+    disabled: true
+    value: "0"
+  - name: name
+    disabled: true
+    value: string
+  - name: gender
+    disabled: true
+    value: string
+  - name: motivation
+    disabled: true
+    value: string
+  - name: affiliation
+    disabled: true
+    value: string
+  - name: residence
+    disabled: true
+    value: string
+  - name: birthDate
+    disabled: true
+    value: "0"
+  - name: birthDateTo
+    disabled: true
+    value: string
+  - name: deathDate
+    disabled: true
+    value: string
+  - name: deathDateTo
+    disabled: true
+    value: "0"
+  - name: foundedDate
+    disabled: true
+    value: string
+  - name: birthCity
+    disabled: true
+    value: string
+  - name: birthCountry
+    disabled: true
+    value: string
+  - name: birthContinent
+    disabled: true
+    value: string
+  - name: deathCity
+    disabled: true
+    value: string
+  - name: deathCountry
+    disabled: true
+    value: string
+  - name: deathContinent
+    disabled: true
+    value: string
+  - name: foundedCity
+    disabled: true
+    value: string
+  - name: foundedCountry
+    disabled: true
+    value: string
+  - name: foundedContinent
+    disabled: true
+    value: string
+  - name: HeadquartersCity
+    disabled: true
+    value: string
+  - name: HeadquartersCountry
+    disabled: true
+    value: string
+  - name: HeadquartersContinent
+    disabled: true
+    value: string
+  - name: nobelPrizeYear
+    disabled: true
+    value: "0"
+  - name: yearTo
+    disabled: true
+    value: "0"
+  - name: nobelPrizeCategory
+    disabled: true
+    value: string
+  - name: format
+    disabled: true
+    value: string
+  - name: csvLang
+    disabled: true
+    value: string
+headers: []
+authentication: {}
+metaSortKey: -1677307739534
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

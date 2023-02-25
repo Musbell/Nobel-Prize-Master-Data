@@ -1,0 +1,22 @@
+_id: env_env_6e91d244124da113c53b808cacf56a6c6c6c6f79_sub
+type: Environment
+parentId: env_6e91d244124da113c53b808cacf56a6c6c6c6f79
+modified: 1677307943823
+created: 1677307739567
+name: Swagger env api.nobelprize.org
+data:
+  base_path: /2.1
+  scheme: http
+  host: api.nobelprize.org
+  year: "2022"
+  category: lit
+dataPropertyOrder:
+  "&":
+    - base_path
+    - scheme
+    - host
+    - year
+    - category
+color: null
+isPrivate: false
+metaSortKey: 1677307739567
