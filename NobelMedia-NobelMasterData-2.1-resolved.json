@@ -12,6 +12,7 @@
   "host": "api.nobelprize.org",
   "basePath": "/2.1",
   "schemes": [
+    "http",
     "https"
   ],
   "paths": {
